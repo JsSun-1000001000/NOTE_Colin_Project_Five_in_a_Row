@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "开发环境与封装/5、网络封装例子.md",
+                "file": "开发环境与封装/7、信号槽的补充.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5、网络封装例子"
+              "title": "7、信号槽的补充"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5
+    "width": 201.5,
+    "collapsed": true
   },
   "right": {
     "id": "d246dd0d8996e643",
@@ -197,8 +198,10 @@
   },
   "active": "c2825eff8429fc9a",
   "lastOpenFiles": [
-    "开发环境与封装/4、项目分析&网络封装.md",
+    "开发环境与封装/6、客户端封装.md",
+    "开发环境与封装/7、信号槽的补充.md",
     "开发环境与封装/5、网络封装例子.md",
+    "开发环境与封装/4、项目分析&网络封装.md",
     "开发环境与封装/3、任务&项目分析.md",
     "开发环境与封装/1、开发环境.md",
     "开发环境与封装/2、项目课内容分享.md",
