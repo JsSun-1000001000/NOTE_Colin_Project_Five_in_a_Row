@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d3b139c2a51cf0ef",
+        "id": "3ae4701f8e3bf5ea",
         "type": "tabs",
         "children": [
           {
-            "id": "c2825eff8429fc9a",
+            "id": "bff5e75c3e9113ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -180,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,8 +195,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c2825eff8429fc9a",
+  "active": "bff5e75c3e9113ac",
   "lastOpenFiles": [
+    "A、开发环境与封装/10、服务器代码分析.md",
+    "A、开发环境与封装/11、虚拟机网络联通1.md",
+    "解决Ubuntu安装Mysql时没有提示设置密码的问题.md",
+    "A、开发环境与封装/9、服务器结构讲解.md",
+    "A、开发环境与封装/8、协议映射表.md",
     "B、注册登录系统/20、配置文件.md",
     "B、注册登录系统/19、qt打包.md",
     "B、注册登录系统/18、MD5加密.md",
@@ -205,10 +211,6 @@
     "B、注册登录系统/14、注册界面设置.md",
     "B、注册登录系统/13、修改部分协议.md",
     "B、注册登录系统/12、测试客户端服务器连接.md",
-    "A、开发环境与封装/11、虚拟机网络联通1.md",
-    "A、开发环境与封装/10、服务器代码分析.md",
-    "A、开发环境与封装/9、服务器结构讲解.md",
-    "A、开发环境与封装/8、协议映射表.md",
     "C、房间系统",
     "B、注册登录系统",
     "A、开发环境与封装/7、信号槽的补充.md",
