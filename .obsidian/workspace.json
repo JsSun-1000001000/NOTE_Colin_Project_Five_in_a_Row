@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d246dd0d8996e643",
@@ -195,8 +196,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7be54169f3bc1cdc",
+  "active": "bff5e75c3e9113ac",
   "lastOpenFiles": [
+    "A、开发环境与封装/图示讲解",
+    "A、开发环境与封装/图示讲解/线程池.png",
     "00-相关文件参考/windows mysql workbench连接linux mysql 1.docx",
     "00-相关文件参考/windows mysql workbench连接linux mysql.docx",
     "00-相关文件参考/linux安装qt&mysql.pdf",
