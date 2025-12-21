@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d246dd0d8996e643",
@@ -198,6 +197,9 @@
   },
   "active": "bff5e75c3e9113ac",
   "lastOpenFiles": [
+    "A、开发环境与封装/图示讲解/EPOLLONESHOT.png",
+    "A、开发环境与封装/图示讲解/客户端套接字处理调用线程池处理.png",
+    "A、开发环境与封装/图示讲解/网络流程图.png",
     "A、开发环境与封装/图示讲解/阻塞与非阻塞recv.png",
     "A、开发环境与封装/9、服务器结构讲解.md",
     "A、开发环境与封装/图示讲解/阻塞与非阻塞.png",
