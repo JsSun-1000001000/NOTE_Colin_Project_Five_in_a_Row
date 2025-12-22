@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "A、开发环境与封装/10、服务器代码分析.md",
+                "file": "A、开发环境与封装/11、虚拟机网络联通1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10、服务器代码分析"
+              "title": "11、虚拟机网络联通1"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d246dd0d8996e643",
@@ -196,10 +195,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bff5e75c3e9113ac",
+  "active": "7be54169f3bc1cdc",
   "lastOpenFiles": [
-    "A、开发环境与封装/9、服务器结构讲解.md",
     "A、开发环境与封装/10、服务器代码分析.md",
+    "A、开发环境与封装/9、服务器结构讲解.md",
     "A、开发环境与封装/图示讲解/EPOLLONESHOT.png",
     "A、开发环境与封装/图示讲解/客户端套接字处理调用线程池处理.png",
     "A、开发环境与封装/图示讲解/网络流程图.png",
