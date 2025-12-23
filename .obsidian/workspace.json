@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "B、注册登录系统/12、测试客户端服务器连接.md",
+                "file": "B、注册登录系统/13、修改部分协议.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12、测试客户端服务器连接"
+              "title": "13、修改部分协议"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d246dd0d8996e643",
@@ -180,8 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,8 +195,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7be54169f3bc1cdc",
+  "active": "bff5e75c3e9113ac",
   "lastOpenFiles": [
+    "B、注册登录系统/12、测试客户端服务器连接.md",
     "A、开发环境与封装/图示讲解/连接成功.png",
     "A、开发环境与封装/11、虚拟机网络联通1.md",
     "A、开发环境与封装/图示讲解/桥接.png",
@@ -225,7 +226,6 @@
     "B、注册登录系统/15、客户端发送请求.md",
     "B、注册登录系统/14、注册界面设置.md",
     "B、注册登录系统/13、修改部分协议.md",
-    "B、注册登录系统/12、测试客户端服务器连接.md",
     "C、房间系统",
     "B、注册登录系统",
     "A、开发环境与封装/7、信号槽的补充.md",
