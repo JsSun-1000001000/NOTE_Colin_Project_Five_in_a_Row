@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "B、注册登录系统/19、qt打包.md",
+                "file": "B、注册登录系统/20、配置文件.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "19、qt打包"
+              "title": "20、配置文件"
             }
           }
         ]
@@ -198,6 +198,7 @@
   },
   "active": "bff5e75c3e9113ac",
   "lastOpenFiles": [
+    "B、注册登录系统/19、qt打包.md",
     "B、注册登录系统/18、MD5加密.md",
     "B、注册登录系统/图示讲解/md5.png",
     "B、注册登录系统/17、登陆代码.md",
@@ -227,7 +228,6 @@
     "解决Ubuntu安装Mysql时没有提示设置密码的问题.md",
     "A、开发环境与封装/8、协议映射表.md",
     "B、注册登录系统/20、配置文件.md",
-    "B、注册登录系统/19、qt打包.md",
     "C、房间系统",
     "B、注册登录系统",
     "A、开发环境与封装/7、信号槽的补充.md",
