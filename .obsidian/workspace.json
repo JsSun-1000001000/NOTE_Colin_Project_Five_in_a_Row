@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C、房间系统/22、专区&房间协议.md",
+                "file": "C、房间系统/23、房间系统开发.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "22、专区&房间协议"
+              "title": "23、房间系统开发"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d246dd0d8996e643",
@@ -198,6 +197,7 @@
   },
   "active": "bff5e75c3e9113ac",
   "lastOpenFiles": [
+    "C、房间系统/22、专区&房间协议.md",
     "C、房间系统/图示讲解/思路.bmp",
     "C、房间系统/21、界面.md",
     "B、注册登录系统/20、配置文件.md",
@@ -241,7 +241,6 @@
     "A、开发环境与封装/图示讲解/连接成功.png",
     "A、开发环境与封装/图示讲解/桥接.png",
     "A、开发环境与封装/图示讲解/NAT.png",
-    "A、开发环境与封装/图示讲解/EPOLLONESHOT.png",
     "A、开发环境与封装/图示讲解",
     "00-相关文件参考/windows mysql workbench连接linux mysql 1.docx"
   ]
