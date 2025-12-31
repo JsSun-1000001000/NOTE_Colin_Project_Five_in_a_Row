@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "D、五子棋实现/30、五子棋准备&开局.md",
+                "file": "D、五子棋实现/31、五子棋落子.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "30、五子棋准备&开局"
+              "title": "31、五子棋落子"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d246dd0d8996e643",
@@ -195,8 +196,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7be54169f3bc1cdc",
+  "active": "bff5e75c3e9113ac",
   "lastOpenFiles": [
+    "D、五子棋实现/30、五子棋准备&开局.md",
+    "D、五子棋实现/31、五子棋落子.md",
     "D、五子棋实现/图示讲解/五子棋开局逻辑.png",
     "D、五子棋实现/29、帧同步 & 状态同步 & 协议.md",
     "D、五子棋实现/26、五子棋设计 & 绘图.md",
@@ -226,7 +229,6 @@
     "A、开发环境与封装/8、协议映射表.md",
     "A、开发环境与封装/7、信号槽的补充.md",
     "A、开发环境与封装/6、客户端封装.md",
-    "A、开发环境与封装/5、网络封装例子.md",
     "F、总结优化/图示讲解",
     "F、总结优化",
     "E、高级ai/图示讲解",
@@ -240,7 +242,6 @@
     "B、注册登录系统/图示讲解/注册测试.png",
     "B、注册登录系统/图示讲解/登录界面.png",
     "B、注册登录系统/图示讲解",
-    "B、注册登录系统/图示讲解/注册时序图.jpg",
     "A、开发环境与封装/图示讲解",
     "00-相关文件参考/windows mysql workbench连接linux mysql 1.docx"
   ]
