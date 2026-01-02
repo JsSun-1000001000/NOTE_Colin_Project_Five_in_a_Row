@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "E、高级ai/36、ai算法理论部分.md",
+                "file": "E、高级ai/37、五子棋高级ai代码实现1——基础.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "36、ai算法理论部分"
+              "title": "37、五子棋高级ai代码实现1——基础"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d246dd0d8996e643",
@@ -195,12 +196,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7be54169f3bc1cdc",
+  "active": "bff5e75c3e9113ac",
   "lastOpenFiles": [
+    "E、高级ai/36、ai算法理论部分.md",
     "E、高级ai/图示讲解/阿尔法贝塔剪枝.png",
     "E、高级ai/图示讲解/连子类型.png",
     "E、高级ai/图示讲解/极大值极小值搜索.png",
-    "E、高级ai/36、ai算法理论部分.md",
     "E、高级ai/图示讲解/ai算法理论.png",
     "D、五子棋实现/35、五子棋回合倒计时 & 同步专区信息.md",
     "D、五子棋实现/34、五子棋托管.md",
@@ -239,7 +240,6 @@
     "D、五子棋实现",
     "C、房间系统/图示讲解",
     "B、注册登录系统/图示讲解/md5.png",
-    "B、注册登录系统/图示讲解/流程图—另一部分.png",
     "B、注册登录系统/图示讲解",
     "A、开发环境与封装/图示讲解",
     "00-相关文件参考/windows mysql workbench连接linux mysql 1.docx"
