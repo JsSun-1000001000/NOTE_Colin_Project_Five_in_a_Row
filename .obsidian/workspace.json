@@ -11,14 +11,12 @@
             "id": "bff5e75c3e9113ac",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "G、项目整理图示/41、整理总结.md",
-                "mode": "source",
-                "source": false
+                "file": "D、五子棋实现/图示讲解/界面设计.png"
               },
-              "icon": "lucide-file",
-              "title": "41、整理总结"
+              "icon": "lucide-image",
+              "title": "界面设计"
             }
           }
         ]
@@ -197,6 +195,8 @@
   },
   "active": "bff5e75c3e9113ac",
   "lastOpenFiles": [
+    "G、项目整理图示/fiveinline.png",
+    "G、项目整理图示/41、整理总结.md",
     "D、五子棋实现/图示讲解/判断输赢&落子&协议.jpg",
     "D、五子棋实现/图示讲解/界面设计.png",
     "B、注册登录系统/图示讲解/流程图—部分.png",
@@ -210,9 +210,7 @@
     "E、高级ai/图示讲解/阿尔法贝塔剪枝.png",
     "E、高级ai/图示讲解/ai算法理论.png",
     "D、五子棋实现/32、五子棋ai 1.md",
-    "G、项目整理图示/41、整理总结.md",
     "F、总结优化/39、游戏大厅总结.md",
-    "G、项目整理图示/用户的用例图.png",
     "G、项目整理图示/用户的用例图.drawio",
     "G、项目整理图示/服务器的用例图.drawio",
     "G、项目整理图示",
