@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "F、总结优化/39、游戏大厅总结.md",
+                "file": "G、项目整理图示/41、整理总结.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "39、游戏大厅总结"
+              "title": "41、整理总结"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d246dd0d8996e643",
@@ -197,6 +198,7 @@
   },
   "active": "bff5e75c3e9113ac",
   "lastOpenFiles": [
+    "F、总结优化/39、游戏大厅总结.md",
     "G、项目整理图示/用户的用例图.png",
     "G、项目整理图示/用户的用例图.drawio",
     "G、项目整理图示/服务器的用例图.png",
@@ -211,7 +213,6 @@
     "新建文件夹/服务器的用例图.png",
     "新建文件夹/41、整理总结.md",
     "新建文件夹",
-    "F、总结优化/39、游戏大厅总结.md",
     "F、总结优化/图示讲解/游戏大厅-五子棋总结.jpg",
     "E、高级ai/37、五子棋高级ai代码实现1——基础.md",
     "E、高级ai/36、ai算法理论部分.md",
