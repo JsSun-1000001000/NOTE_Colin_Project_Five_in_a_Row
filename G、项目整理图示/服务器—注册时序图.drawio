@@ -1,0 +1,205 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="第 1 页" id="_Le746c0907roRhbrJaL">
+    <mxGraphModel dx="708" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-5" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fontSize=10;" edge="1" parent="1" source="CCKCYjlgYay4bbPtYkE1-1" target="CCKCYjlgYay4bbPtYkE1-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-6" value="STRU_REGISTER_RQ&lt;div&gt;请求&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CCKCYjlgYay4bbPtYkE1-5">
+          <mxGeometry x="-0.1235" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-1" value="client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="115" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-9" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="247.31034482758616" y="380.2434482758621" as="sourcePoint" />
+            <mxPoint x="397.0000000000001" y="380.2434482758621" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-10" value="查询&lt;div&gt;select tel from&amp;nbsp;&lt;/div&gt;&lt;div&gt;t_user where tel=?&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CCKCYjlgYay4bbPtYkE1-9">
+          <mxGeometry x="-0.1545" y="-2" relative="1" as="geometry">
+            <mxPoint x="9" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-2" value="clogic" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="190" y="240" width="115" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-11" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;curved=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="397.0000000000001" y="420" as="sourcePoint" />
+            <mxPoint x="247.31034482758616" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="323" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-12" value="返回结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CCKCYjlgYay4bbPtYkE1-11">
+          <mxGeometry x="-0.2043" relative="1" as="geometry">
+            <mxPoint x="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-3" value="cmysql" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="340" y="240" width="115" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-4" value="m_mapIdToUserInfo" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="240" width="115" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="247.66666666666663" y="330" as="sourcePoint" />
+            <mxPoint x="247.66666666666663" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="330" />
+              <mxPoint x="320" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-8" value="解析数据包&lt;div&gt;tel/name/password&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CCKCYjlgYay4bbPtYkE1-7">
+          <mxGeometry x="-0.4466" relative="1" as="geometry">
+            <mxPoint x="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-13" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=40;height=30;" vertex="1" parent="1">
+          <mxGeometry x="200" y="450" width="300" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-14" value="[手机号存在]" style="text;html=1;" vertex="1" parent="CCKCYjlgYay4bbPtYkE1-13">
+          <mxGeometry width="100" height="20" relative="1" as="geometry">
+            <mxPoint x="20" y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-15" value="[手机号不存在]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" vertex="1" parent="CCKCYjlgYay4bbPtYkE1-13">
+          <mxGeometry y="125" width="300" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-16" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=40;height=30;" vertex="1" parent="CCKCYjlgYay4bbPtYkE1-13">
+          <mxGeometry x="10" y="250" width="280" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-17" value="[昵称已存在]" style="text;html=1;" vertex="1" parent="CCKCYjlgYay4bbPtYkE1-16">
+          <mxGeometry width="100" height="20" relative="1" as="geometry">
+            <mxPoint x="20" y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-18" value="[昵称不存在]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" vertex="1" parent="CCKCYjlgYay4bbPtYkE1-16">
+          <mxGeometry y="105" width="280" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="CCKCYjlgYay4bbPtYkE1-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="70" as="sourcePoint" />
+            <mxPoint x="40" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="112.33333333333337" y="70" />
+              <mxPoint x="112.33333333333337" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-26" value="name_is_exist" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CCKCYjlgYay4bbPtYkE1-25">
+          <mxGeometry x="-0.4466" relative="1" as="geometry">
+            <mxPoint x="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-27" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="CCKCYjlgYay4bbPtYkE1-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="170" as="sourcePoint" />
+            <mxPoint x="189.68965517241395" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-28" value="插入&lt;br&gt;&lt;div&gt;insert into&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;t_user&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;values&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(tel, password,name)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CCKCYjlgYay4bbPtYkE1-27">
+          <mxGeometry x="-0.1545" y="-2" relative="1" as="geometry">
+            <mxPoint x="9" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-29" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;curved=0;dashed=1;" edge="1" parent="CCKCYjlgYay4bbPtYkE1-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="189.68965517241395" y="210" as="sourcePoint" />
+            <mxPoint x="40" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="115.68965517241384" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-30" value="返回结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CCKCYjlgYay4bbPtYkE1-29">
+          <mxGeometry x="-0.2043" relative="1" as="geometry">
+            <mxPoint x="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="CCKCYjlgYay4bbPtYkE1-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="240" as="sourcePoint" />
+            <mxPoint x="40" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="112.33333333333337" y="240" />
+              <mxPoint x="112.33333333333337" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-32" value="register_success" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CCKCYjlgYay4bbPtYkE1-31">
+          <mxGeometry x="-0.4466" relative="1" as="geometry">
+            <mxPoint x="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="CCKCYjlgYay4bbPtYkE1-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="70" as="sourcePoint" />
+            <mxPoint x="50" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="122.33333333333337" y="70" />
+              <mxPoint x="122.33333333333337" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-20" value="tel_is_exist" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CCKCYjlgYay4bbPtYkE1-19">
+          <mxGeometry x="-0.4466" relative="1" as="geometry">
+            <mxPoint x="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-21" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="CCKCYjlgYay4bbPtYkE1-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="190" as="sourcePoint" />
+            <mxPoint x="199.68965517241395" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-22" value="查询&lt;div&gt;select name from&amp;nbsp;&lt;/div&gt;&lt;div&gt;t_user where name=?&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CCKCYjlgYay4bbPtYkE1-21">
+          <mxGeometry x="-0.1545" y="-2" relative="1" as="geometry">
+            <mxPoint x="9" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-23" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;curved=0;dashed=1;" edge="1" parent="CCKCYjlgYay4bbPtYkE1-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="199.68965517241395" y="230" as="sourcePoint" />
+            <mxPoint x="50" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="125.68965517241384" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-24" value="返回结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CCKCYjlgYay4bbPtYkE1-23">
+          <mxGeometry x="-0.2043" relative="1" as="geometry">
+            <mxPoint x="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-33" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;curved=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="249.68965517241395" y="1040" as="sourcePoint" />
+            <mxPoint x="100" y="1040" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="175.68965517241384" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CCKCYjlgYay4bbPtYkE1-34" value="STRU_REGISTER_RS&lt;div&gt;响应&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CCKCYjlgYay4bbPtYkE1-33">
+          <mxGeometry x="-0.2043" relative="1" as="geometry">
+            <mxPoint x="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
