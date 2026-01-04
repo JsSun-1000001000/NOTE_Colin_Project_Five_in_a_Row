@@ -1,0 +1,567 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="第 1 页" id="DpetinRuJN-bpIZxGVwy">
+    <mxGraphModel dx="888" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CGpfhbqCppfGGur_Co9M-22" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="89.81034482758616" y="230" as="sourcePoint" />
+            <mxPoint x="219.5" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-23" value="点击开局" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-22">
+          <mxGeometry x="-0.0835" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-15" value="用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="70" width="100" height="1930" as="geometry" />
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-32" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fontSize=10;" edge="1" parent="1" source="CGpfhbqCppfGGur_Co9M-16" target="CGpfhbqCppfGGur_Co9M-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-33" value="start(1000)启动倒计时" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-32">
+          <mxGeometry x="0.0765" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-16" value="五子棋窗口" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="170" y="70" width="100" height="1930" as="geometry" />
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-47" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;curved=0;" edge="1" parent="1" source="CGpfhbqCppfGGur_Co9M-17" target="CGpfhbqCppfGGur_Co9M-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-48" value="timeout()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-47">
+          <mxGeometry x="-0.1026" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-17" value="刷新定时器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="300" y="70" width="100" height="1930" as="geometry" />
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-38" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fontSize=10;" edge="1" parent="1" source="CGpfhbqCppfGGur_Co9M-18" target="CGpfhbqCppfGGur_Co9M-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-39" value="timeout()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-38">
+          <mxGeometry x="-0.103" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-18" value="倒计时器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="430" y="70" width="100" height="1930" as="geometry" />
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-19" value="人机" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="560" y="70" width="100" height="1930" as="geometry" />
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-21" value="初始化游戏&lt;div&gt;- 调用initAiVector初始化赢法&lt;/div&gt;&lt;div&gt;- 连接定时器信号和槽&lt;/div&gt;" style="fontStyle=0;html=1;whiteSpace=wrap;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="150" y="120" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-24" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;curved=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="219.81034482758605" y="190" as="sourcePoint" />
+            <mxPoint x="219.81034482758605" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-26" value="clear清空棋盘" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-24">
+          <mxGeometry x="-0.5798" relative="1" as="geometry">
+            <mxPoint x="15" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-30" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;curved=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="219.81" y="250" as="sourcePoint" />
+            <mxPoint x="219.81" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="269.99965517241395" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-31" value="slot_startGame" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-30">
+          <mxGeometry x="-0.5798" relative="1" as="geometry">
+            <mxPoint x="15" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-34" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;curved=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="219.81" y="320" as="sourcePoint" />
+            <mxPoint x="219.81" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-35" value="m_isOver=false游戏开始" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-34">
+          <mxGeometry x="-0.5798" relative="1" as="geometry">
+            <mxPoint x="15" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-36" value="loop&lt;div&gt;循环&lt;/div&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=50;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="180" y="350" width="340" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-37" value="倒计时刷新" style="text;align=center;html=1;fontSize=10;" vertex="1" parent="CGpfhbqCppfGGur_Co9M-36">
+          <mxGeometry width="100" height="20" relative="1" as="geometry">
+            <mxPoint x="120" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-40" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;curved=0;fontSize=10;" edge="1" parent="CGpfhbqCppfGGur_Co9M-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="39.81" y="60" as="sourcePoint" />
+            <mxPoint x="39.81" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="89.99965517241395" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-41" value="slot_countTimer()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-40">
+          <mxGeometry x="-0.5798" relative="1" as="geometry">
+            <mxPoint x="15" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-42" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="CGpfhbqCppfGGur_Co9M-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="100" as="sourcePoint" />
+            <mxPoint x="40" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-43" value="更新剩余时间显示&lt;div&gt;超时切换回和&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-42">
+          <mxGeometry x="-0.5798" relative="1" as="geometry">
+            <mxPoint x="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-44" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;loop&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;循环&lt;/font&gt;&lt;/div&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=50;" vertex="1" parent="1">
+          <mxGeometry x="180" y="560" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-45" value="界面刷新60帧/秒" style="text;align=center;html=1;fontSize=10;" vertex="1" parent="CGpfhbqCppfGGur_Co9M-44">
+          <mxGeometry width="100" height="20" relative="1" as="geometry">
+            <mxPoint x="80" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-49" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;curved=0;fontSize=10;" edge="1" parent="CGpfhbqCppfGGur_Co9M-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="39.81" y="60" as="sourcePoint" />
+            <mxPoint x="39.81" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-50" value="repaint()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-49">
+          <mxGeometry x="-0.5798" relative="1" as="geometry">
+            <mxPoint x="15" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-51" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;curved=0;fontSize=10;" edge="1" parent="CGpfhbqCppfGGur_Co9M-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="100" as="sourcePoint" />
+            <mxPoint x="40" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90.19" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-52" value="paintEvent绘制棋盘棋子" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-51">
+          <mxGeometry x="-0.5798" relative="1" as="geometry">
+            <mxPoint x="15" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-53" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="730" as="sourcePoint" />
+            <mxPoint x="219.68965517241384" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160.18965517241384" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-54" value="鼠标按下&lt;div&gt;mousePressEvent&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-53">
+          <mxGeometry x="-0.0835" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-55" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="810" as="sourcePoint" />
+            <mxPoint x="219.68965517241384" y="810" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160.18965517241384" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-56" value="鼠标移动&lt;div&gt;mouseMoveEvent&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-55">
+          <mxGeometry x="-0.0835" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-57" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="870" as="sourcePoint" />
+            <mxPoint x="219.68965517241384" y="870" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160.18965517241384" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-58" value="鼠标释放&lt;div&gt;mouseReleaseEvent&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-57">
+          <mxGeometry x="-0.0835" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-59" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="760" as="sourcePoint" />
+            <mxPoint x="220" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-60" value="m_moveFlag=true&lt;div&gt;记录初始位置&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-59">
+          <mxGeometry x="-0.5798" relative="1" as="geometry">
+            <mxPoint x="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-61" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="830" as="sourcePoint" />
+            <mxPoint x="220" y="850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-62" value="更新m_movePoint&lt;div&gt;跟随中棋子随鼠标移动&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-61">
+          <mxGeometry x="-0.5798" relative="1" as="geometry">
+            <mxPoint x="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-63" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="890" as="sourcePoint" />
+            <mxPoint x="220" y="910" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-64" value="计算落子坐标xy&lt;div&gt;判断是否出界&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-63">
+          <mxGeometry x="-0.5798" relative="1" as="geometry">
+            <mxPoint x="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-65" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;alt&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=50;" vertex="1" parent="1">
+          <mxGeometry x="40" y="930" width="620" height="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-66" value="落子合法" style="text;align=center;html=1;fontSize=10;" vertex="1" parent="CGpfhbqCppfGGur_Co9M-65">
+          <mxGeometry width="100" height="20" relative="1" as="geometry">
+            <mxPoint x="260" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-67" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;alt&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=170;" vertex="1" parent="CGpfhbqCppfGGur_Co9M-65">
+          <mxGeometry x="10" y="230" width="600" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-68" value="[已获胜]" style="text;html=1;" vertex="1" parent="CGpfhbqCppfGGur_Co9M-67">
+          <mxGeometry width="100" height="20" relative="1" as="geometry">
+            <mxPoint x="20" y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-69" value="[未获胜]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" vertex="1" parent="CGpfhbqCppfGGur_Co9M-67">
+          <mxGeometry y="170" width="600" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-78" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;dashed=1;" edge="1" parent="CGpfhbqCppfGGur_Co9M-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="50" as="sourcePoint" />
+            <mxPoint x="170" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-79" value="m_isOver= true&lt;div&gt;发送SIG_playerWin&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-78">
+          <mxGeometry x="-0.5798" relative="1" as="geometry">
+            <mxPoint x="11" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-80" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fontSize=10;" edge="1" parent="CGpfhbqCppfGGur_Co9M-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="90" as="sourcePoint" />
+            <mxPoint x="430" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240.18965517241384" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-81" value="stop()停止倒计时" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-80">
+          <mxGeometry x="-0.0835" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-82" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fontSize=10;dashed=1;" edge="1" parent="CGpfhbqCppfGGur_Co9M-67" source="CGpfhbqCppfGGur_Co9M-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="150" as="sourcePoint" />
+            <mxPoint x="40" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-83" value="显示获胜信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-82">
+          <mxGeometry x="-0.103" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-84" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;dashed=1;" edge="1" parent="CGpfhbqCppfGGur_Co9M-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="190" as="sourcePoint" />
+            <mxPoint x="170" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-85" value="更新赢法统计&lt;div&gt;(玩家/人机棋子数)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-84">
+          <mxGeometry x="-0.5798" relative="1" as="geometry">
+            <mxPoint x="35" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-86" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="CGpfhbqCppfGGur_Co9M-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="230" as="sourcePoint" />
+            <mxPoint x="170" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-87" value="changeBlackAndWhite&lt;div&gt;切换回合&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-86">
+          <mxGeometry x="-0.5798" relative="1" as="geometry">
+            <mxPoint x="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-88" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=50;" vertex="1" parent="CGpfhbqCppfGGur_Co9M-67">
+          <mxGeometry x="10" y="260" width="580" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-89" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;切换后是人机回合&lt;/font&gt;" style="text;align=center;html=1;" vertex="1" parent="CGpfhbqCppfGGur_Co9M-88">
+          <mxGeometry width="100" height="20" relative="1" as="geometry">
+            <mxPoint x="240" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-90" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fontSize=10;" edge="1" parent="CGpfhbqCppfGGur_Co9M-88" target="CGpfhbqCppfGGur_Co9M-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="70" as="sourcePoint" />
+            <mxPoint x="420" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230.18965517241384" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-91" value="pieceDownByCpu&lt;div&gt;计算最优落子&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-90">
+          <mxGeometry x="-0.0835" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-92" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fontSize=10;dashed=1;" edge="1" parent="CGpfhbqCppfGGur_Co9M-88" source="CGpfhbqCppfGGur_Co9M-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="120" as="sourcePoint" />
+            <mxPoint x="160" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-93" value="返回最优坐标&lt;div&gt;( u, v )&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-92">
+          <mxGeometry x="-0.103" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-94" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="CGpfhbqCppfGGur_Co9M-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="140" as="sourcePoint" />
+            <mxPoint x="160" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-95" value="发送SIG_pieceDown&lt;div&gt;(人机颜色,u,v)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-94">
+          <mxGeometry x="-0.5798" relative="1" as="geometry">
+            <mxPoint x="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-96" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="CGpfhbqCppfGGur_Co9M-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="180" as="sourcePoint" />
+            <mxPoint x="160" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-97" value="slot_pieceDown&lt;div&gt;(人机颜色, u, v)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-96">
+          <mxGeometry x="-0.5798" relative="1" as="geometry">
+            <mxPoint x="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-98" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;dashed=1;" edge="1" parent="CGpfhbqCppfGGur_Co9M-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="220" as="sourcePoint" />
+            <mxPoint x="160" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-99" value="更新m_board[u][v]&amp;nbsp;&lt;div&gt;= 人机颜色&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-98">
+          <mxGeometry x="-0.5798" relative="1" as="geometry">
+            <mxPoint x="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-100" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="CGpfhbqCppfGGur_Co9M-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="260" as="sourcePoint" />
+            <mxPoint x="160" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-101" value="isWin(u,v)&lt;div&gt;判断人机是否获胜&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-100">
+          <mxGeometry x="-0.5798" relative="1" as="geometry">
+            <mxPoint x="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-107" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=60;height=30;" vertex="1" parent="CGpfhbqCppfGGur_Co9M-88">
+          <mxGeometry x="10" y="310" width="430" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-108" value="[人机获胜]" style="text;html=1;" vertex="1" parent="CGpfhbqCppfGGur_Co9M-107">
+          <mxGeometry width="100" height="20" relative="1" as="geometry">
+            <mxPoint x="20" y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-109" value="[人机未获胜]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" vertex="1" parent="CGpfhbqCppfGGur_Co9M-107">
+          <mxGeometry y="120" width="430" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-110" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;dashed=1;" edge="1" parent="CGpfhbqCppfGGur_Co9M-107">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="40" as="sourcePoint" />
+            <mxPoint x="150" y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-111" value="m_isOver=true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-110">
+          <mxGeometry x="-0.5798" relative="1" as="geometry">
+            <mxPoint x="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-112" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fontSize=10;" edge="1" parent="CGpfhbqCppfGGur_Co9M-107" target="CGpfhbqCppfGGur_Co9M-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="148" y="80" as="sourcePoint" />
+            <mxPoint x="538" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="218.18965517241384" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-113" value="stop()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-112">
+          <mxGeometry x="-0.0835" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-114" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fontSize=10;dashed=1;" edge="1" parent="CGpfhbqCppfGGur_Co9M-107">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="100" as="sourcePoint" />
+            <mxPoint x="20" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-115" value="显示人机获胜信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-114">
+          <mxGeometry x="-0.103" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-116" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;dashed=1;" edge="1" parent="CGpfhbqCppfGGur_Co9M-107">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="170" as="sourcePoint" />
+            <mxPoint x="150" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-117" value="更新赢法统计&lt;div&gt;切换回合&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-116">
+          <mxGeometry x="-0.5798" relative="1" as="geometry">
+            <mxPoint x="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-70" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="CGpfhbqCppfGGur_Co9M-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="40" as="sourcePoint" />
+            <mxPoint x="180" y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-71" value="SIG_pieceDown" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-70">
+          <mxGeometry x="-0.5798" relative="1" as="geometry">
+            <mxPoint x="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-72" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="CGpfhbqCppfGGur_Co9M-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="90" as="sourcePoint" />
+            <mxPoint x="180" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-73" value="slot_pieceDown" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-72">
+          <mxGeometry x="-0.5798" relative="1" as="geometry">
+            <mxPoint x="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-74" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;dashed=1;" edge="1" parent="CGpfhbqCppfGGur_Co9M-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="140" as="sourcePoint" />
+            <mxPoint x="180" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-75" value="更新m_board[x][y]=当前颜色" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-74">
+          <mxGeometry x="-0.5798" relative="1" as="geometry">
+            <mxPoint x="-19" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-76" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="CGpfhbqCppfGGur_Co9M-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="190" as="sourcePoint" />
+            <mxPoint x="180" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CGpfhbqCppfGGur_Co9M-77" value="isWin判断输赢" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="CGpfhbqCppfGGur_Co9M-76">
+          <mxGeometry x="-0.5798" relative="1" as="geometry">
+            <mxPoint x="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

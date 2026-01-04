@@ -1,0 +1,195 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="第 1 页" id="0Usg9yL66Zv4cJ59Piaq">
+    <mxGraphModel dx="983" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-3" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fontSize=10;" edge="1" parent="1" source="ajVlouoPDuTB94I9Kdrx-1" target="ajVlouoPDuTB94I9Kdrx-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-4" value="调用构造函数md5()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="ajVlouoPDuTB94I9Kdrx-3">
+          <mxGeometry x="-0.0842" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-1" value="调用者" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="194" y="40" width="100" height="920" as="geometry" />
+        </mxCell>
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-35" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;dashed=1;" edge="1" parent="1" source="ajVlouoPDuTB94I9Kdrx-2" target="ajVlouoPDuTB94I9Kdrx-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="402" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-36" value="返回16字节哈希值(digest)&lt;div&gt;或32位十六进制字符串(toString)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ajVlouoPDuTB94I9Kdrx-35">
+          <mxGeometry x="0.047" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-2" value="MD5实例" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="510" y="40" width="100" height="920" as="geometry" />
+        </mxCell>
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;fontSize=10;" edge="1" parent="1" source="ajVlouoPDuTB94I9Kdrx-2" target="ajVlouoPDuTB94I9Kdrx-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="645" y="150" />
+              <mxPoint x="645" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-6" value="调用reset()函数&lt;div&gt;初始化&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="ajVlouoPDuTB94I9Kdrx-5">
+          <mxGeometry x="-0.2658" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-10" value="重置_state _count _buffer&lt;div&gt;标记_finish为false&lt;/div&gt;" style="fontStyle=0;dashed=1;html=1;whiteSpace=wrap;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="180" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-13" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=46;height=30;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="194" y="250" width="480" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-14" value="[输入数据为字符串/缓冲区]" style="text;html=1;fontSize=10;" vertex="1" parent="ajVlouoPDuTB94I9Kdrx-13">
+          <mxGeometry width="100" height="20" relative="1" as="geometry">
+            <mxPoint x="16" y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-15" value="[输入数据为文件]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;fontSize=10;" vertex="1" parent="ajVlouoPDuTB94I9Kdrx-13">
+          <mxGeometry y="125" width="480" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-16" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fontSize=10;" edge="1" parent="ajVlouoPDuTB94I9Kdrx-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="52" y="70" as="sourcePoint" />
+            <mxPoint x="368" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="218" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-17" value="update(数据)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="ajVlouoPDuTB94I9Kdrx-16">
+          <mxGeometry x="-0.0842" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-18" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fontSize=10;" edge="1" parent="ajVlouoPDuTB94I9Kdrx-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="52" y="190" as="sourcePoint" />
+            <mxPoint x="368" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="218" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-19" value="update(文件流)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="ajVlouoPDuTB94I9Kdrx-18">
+          <mxGeometry x="-0.0842" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;fontSize=10;" edge="1" parent="ajVlouoPDuTB94I9Kdrx-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="366" y="220" as="sourcePoint" />
+            <mxPoint x="366" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="451" y="220" />
+              <mxPoint x="451" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-9" value="循环读取文件块&lt;div&gt;调用update&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="ajVlouoPDuTB94I9Kdrx-8">
+          <mxGeometry x="-0.2658" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="530" as="sourcePoint" />
+            <mxPoint x="560" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="645" y="530" />
+              <mxPoint x="645" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-21" value="update(Byte数组, 长度)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="ajVlouoPDuTB94I9Kdrx-20">
+          <mxGeometry x="-0.2658" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-22" value="计算数据块长度，缓存不足64字节的数据仅积累&lt;div&gt;满64字节的调用transform先处理&lt;/div&gt;&lt;div&gt;然后每64字节一个处理剩余的完整块&lt;/div&gt;" style="fontStyle=0;dashed=1;html=1;whiteSpace=wrap;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="445" y="560" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-23" value="loop&lt;div&gt;循环&lt;/div&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=50;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="430" y="630" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-24" value="处理64字节完整块" style="text;align=center;html=1;fontSize=10;" vertex="1" parent="ajVlouoPDuTB94I9Kdrx-23">
+          <mxGeometry width="100" height="20" relative="1" as="geometry">
+            <mxPoint x="80" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;fontSize=10;" edge="1" parent="ajVlouoPDuTB94I9Kdrx-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="30" as="sourcePoint" />
+            <mxPoint x="130" y="50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="215" y="30" />
+              <mxPoint x="215" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-26" value="transform64&lt;div&gt;字节块&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="ajVlouoPDuTB94I9Kdrx-25">
+          <mxGeometry x="-0.2658" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-27" value="进行4轮哈希变换(FF/GG/HH/II)&lt;div&gt;更新_state状态&lt;/div&gt;" style="fontStyle=0;dashed=1;html=1;whiteSpace=wrap;fontSize=10;" vertex="1" parent="ajVlouoPDuTB94I9Kdrx-23">
+          <mxGeometry x="60" y="60" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-28" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="243.81034482758605" y="770" as="sourcePoint" />
+            <mxPoint x="560" y="770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="416" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-29" value="digest() 或 toString()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="ajVlouoPDuTB94I9Kdrx-28">
+          <mxGeometry x="-0.0842" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-30" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=50;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="430" y="780" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-31" value="[未完成计算]" style="text;align=center;html=1;fontSize=10;" vertex="1" parent="ajVlouoPDuTB94I9Kdrx-30">
+          <mxGeometry width="100" height="20" relative="1" as="geometry">
+            <mxPoint x="80" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;fontSize=10;" edge="1" parent="ajVlouoPDuTB94I9Kdrx-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="30" as="sourcePoint" />
+            <mxPoint x="130" y="50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="215" y="30" />
+              <mxPoint x="215" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-33" value="final 补全数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="ajVlouoPDuTB94I9Kdrx-32">
+          <mxGeometry x="-0.2658" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajVlouoPDuTB94I9Kdrx-34" value="填充0x80以及长度信息&lt;div&gt;处理最后一块数据&lt;/div&gt;&lt;div&gt;编码_state 到 _digest&lt;/div&gt;" style="fontStyle=0;dashed=1;html=1;whiteSpace=wrap;fontSize=10;" vertex="1" parent="ajVlouoPDuTB94I9Kdrx-30">
+          <mxGeometry x="60" y="60" width="140" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

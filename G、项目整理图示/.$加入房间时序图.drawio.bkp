@@ -1,0 +1,243 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="第 1 页" id="zTp-BqpnjCMZXmU6zl6X">
+    <mxGraphModel dx="1188" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-9" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="89.92857142857144" y="250" as="sourcePoint" />
+            <mxPoint x="249.5" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-10" value="SIG_JoinRoom(roomid)&lt;div&gt;信号&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="7MSfON-YjCE8rsqtxzlD-9">
+          <mxGeometry x="-0.1379" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-1" value="RoomItem" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="100" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-2" value="FiveInLineZone" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="200" y="120" width="100" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-32" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;curved=0;" edge="1" parent="1" source="7MSfON-YjCE8rsqtxzlD-3" target="7MSfON-YjCE8rsqtxzlD-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-33" value="隐藏专区窗口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7MSfON-YjCE8rsqtxzlD-32">
+          <mxGeometry x="0.1262" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-34" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1" source="7MSfON-YjCE8rsqtxzlD-3" target="7MSfON-YjCE8rsqtxzlD-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-35" value="显示房间窗口，设置房间id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7MSfON-YjCE8rsqtxzlD-34">
+          <mxGeometry x="0.0413" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-3" value="CKernel" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="100" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-4" value="INetMediator" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="520" y="120" width="100" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-19" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fontSize=10;" edge="1" parent="1" source="7MSfON-YjCE8rsqtxzlD-5" target="7MSfON-YjCE8rsqtxzlD-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-20" value="返回加入房间请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="7MSfON-YjCE8rsqtxzlD-19">
+          <mxGeometry x="0.1235" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-5" value="Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="680" y="120" width="100" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-6" value="RoomDialog" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="840" y="120" width="100" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="89.92857142857144" y="179.99857142857135" as="sourcePoint" />
+            <mxPoint x="89.92857142857144" y="219.99857142857135" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="179.97" />
+              <mxPoint x="160" y="219.97" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-8" value="加入房间按钮" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="7MSfON-YjCE8rsqtxzlD-7">
+          <mxGeometry x="-0.4271" y="-1" relative="1" as="geometry">
+            <mxPoint y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-11" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="270" as="sourcePoint" />
+            <mxPoint x="409.57142857142856" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350.07142857142856" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-12" value="转发&lt;div&gt;SIG_JoinRoom(roomid)&lt;div&gt;信号&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="7MSfON-YjCE8rsqtxzlD-11">
+          <mxGeometry x="-0.1379" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="289.9985714285714" as="sourcePoint" />
+            <mxPoint x="410" y="329.9985714285714" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480.07142857142856" y="289.97" />
+              <mxPoint x="480.07142857142856" y="329.97" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-14" value="检查是否已在房间" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="7MSfON-YjCE8rsqtxzlD-13">
+          <mxGeometry x="-0.4271" y="-1" relative="1" as="geometry">
+            <mxPoint y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-15" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="360" as="sourcePoint" />
+            <mxPoint x="569.5714285714286" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510.07142857142856" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-16" value="STRU_JOIN_ROOM_RQ&lt;div&gt;请求&lt;/div&gt;&lt;div&gt;用户id 房间id&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="7MSfON-YjCE8rsqtxzlD-15">
+          <mxGeometry x="-0.1379" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-17" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="390" as="sourcePoint" />
+            <mxPoint x="729.5714285714286" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670.0714285714286" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-18" value="传输加入房间请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="7MSfON-YjCE8rsqtxzlD-17">
+          <mxGeometry x="-0.1379" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-21" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="440" as="sourcePoint" />
+            <mxPoint x="410" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-22" value="触发SIG_ReadyData&lt;div&gt;信号&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="7MSfON-YjCE8rsqtxzlD-21">
+          <mxGeometry x="0.1235" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-23" value="" style="fontStyle=0;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=2;html=1;points=[[0,0.5],[1,0.5]];fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="560" y="360" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-24" value="" style="fontStyle=0;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=2;html=1;points=[[0,0.5],[1,0.5]];fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="720" y="390" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="459.9985714285714" as="sourcePoint" />
+            <mxPoint x="410" y="499.9985714285714" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480.07142857142856" y="459.97" />
+              <mxPoint x="480.07142857142856" y="499.97" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-26" value="slot_dealJoinRoomRs&lt;div&gt;查看结果&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="7MSfON-YjCE8rsqtxzlD-25">
+          <mxGeometry x="-0.4271" y="-1" relative="1" as="geometry">
+            <mxPoint x="19" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-29" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=60;height=30;" vertex="1" parent="1">
+          <mxGeometry x="190" y="520" width="740" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-30" value="[加入成功]" style="text;html=1;" vertex="1" parent="7MSfON-YjCE8rsqtxzlD-29">
+          <mxGeometry width="100" height="20" relative="1" as="geometry">
+            <mxPoint x="20" y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-31" value="[加入失败]" style="line;strokeWidth=1;dashed=1;labelPosition=center;verticalLabelPosition=bottom;align=left;verticalAlign=top;spacingLeft=20;spacingTop=15;html=1;whiteSpace=wrap;" vertex="1" parent="7MSfON-YjCE8rsqtxzlD-29">
+          <mxGeometry y="330" width="740" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-36" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;curved=0;" edge="1" parent="7MSfON-YjCE8rsqtxzlD-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="420" as="sourcePoint" />
+            <mxPoint x="60" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-37" value="加入房间失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7MSfON-YjCE8rsqtxzlD-36">
+          <mxGeometry x="0.1262" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-38" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="7MSfON-YjCE8rsqtxzlD-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="543.83" y="174.92333333333346" as="sourcePoint" />
+            <mxPoint x="219.66666666666652" y="174.58333333333348" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-39" value="广播房间成员信息&lt;div&gt;STRU_ROOM_MEMBER&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7MSfON-YjCE8rsqtxzlD-38">
+          <mxGeometry x="0.1411" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-40" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="7MSfON-YjCE8rsqtxzlD-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="290" as="sourcePoint" />
+            <mxPoint x="700" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-41" value="setHostInfo / setPlayerInfo&lt;div&gt;显示成员&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7MSfON-YjCE8rsqtxzlD-40">
+          <mxGeometry x="0.0413" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-42" value="" style="fontStyle=0;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=2;html=1;points=[[0,0.5],[1,0.5]];fillColor=strokeColor;" vertex="1" parent="7MSfON-YjCE8rsqtxzlD-29">
+          <mxGeometry x="530" y="140" width="20" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;fontSize=10;" edge="1" parent="7MSfON-YjCE8rsqtxzlD-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="220.02857142857135" as="sourcePoint" />
+            <mxPoint x="220" y="260.02857142857135" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290.07142857142856" y="220" />
+              <mxPoint x="290.07142857142856" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7MSfON-YjCE8rsqtxzlD-44" value="设置玩家身份" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="7MSfON-YjCE8rsqtxzlD-43">
+          <mxGeometry x="-0.4271" y="-1" relative="1" as="geometry">
+            <mxPoint x="19" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
